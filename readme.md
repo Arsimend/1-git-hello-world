@@ -43,10 +43,10 @@ Tässä tehtävässä tarkoituksesi on ladata tämä Git-repositorio omalle kone
 
 ### Repositorion kloonaaminen
 
-Aloita kloonaamalla tämä Git-repositorio omalle koneellesi. Harjoitus täytyy tehdä omassa kopiossasi, eli varmista, että repositorion osoitteessa on mukana oma GitHub-käyttäjätunnuksesi! Oman kopiosi saat tekemällä tästä repositoriosta forkin tai kopion omalle GitHub-tilillesi.
+Aloita kloonaamalla tämä Git-repositorio omalle koneellesi. Oman kopiosi saat tekemällä tästä repositoriosta forkin tai kopion omalle GitHub-tilillesi.
 
 ```sh
-git clone https://github.com/varmista-etta-github-tunnuksesi-on-repositorion-osoitteessa.git
+git clone https://github.com/<oma-github-tunnus>/<repositorion-nimi>.git
 ```
 
 Kun olet kloonannut repositorion tietokoneellesi valitsemaasi hakemistoon, avaa kloonattu hakemisto koodieditorillasi.
@@ -125,12 +125,7 @@ git ****    # korvaa **** edellisestä komennosta saamallasi komennolla
 Käy lopuksi tarkastamassa etärepositoriosi sisältö. Varmista, että `hello.txt` on päivittynyt.
 
 
-## GitHub actions ja autograding
-
-Kun olet päivittänyt ratkaisusi etärepositorioon, GitHub käynnistää automaattisesti GitHub actions -workflow:n, joka tarkastaa ratkaisusi ja antaa siitä joko hyväksytyn tai hylätyn tuloksen. Arvioinnin valmistumiseen menee tyypillisesti pari minuuttia ja sen tulos näkyy GitHub-repositoriosi [Actions-välilehdellä](../../actions).
-
-
-## .github, .gitignore ja .gitattributes
+## .gitignore ja .gitattributes
 
 Tämä tehtäväpohja sisältää tehtävänannon sekä muokattavan tiedoston lisäksi pisteellä alkavia "piilotiedostoja". Jos tiedostot eivät näy koodieditorisi hakemistorakenteessa, voit joutua muuttamaan editorisi asetuksia.
 

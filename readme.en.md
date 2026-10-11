@@ -41,10 +41,10 @@ In this task, your goal is to download this Git repository to your computer, mak
 
 Open the Git Bash application. In Git Bash, like in other command-line tools, commands operate based on the active directory in the application. By default, the active directory is your home directory (`C:\Users\<yourusername>\` on Windows). The `pwd` command will display the current directory you are in (type in the command and press Enter). We can use the [cd](https://en.wikipedia.org/wiki/Cd_(command)) command to switch to other directories. But, we can have our exercise repository directories in the home directory.
 
-Start by cloning this Git repository to your computer. The exercise must be done in your own copy, so make sure that your GitHub username is included in the repository address! Create your own copy by forking or copying this repository to your own GitHub account.
+Start by cloning this Git repository to your computer. Create your own copy by forking or copying this repository to your own GitHub account.
 
 ```sh
-git clone https://github.com/make-sure-that-your-account-is-in-the-address.git
+git clone https://github.com/<your-github-username>/<repository-name>.git
 ```
 
 The address can also be found in GitHub by clicking the green "Code" button and copying the address from the dialog.
@@ -122,19 +122,7 @@ git ****    # replace the **** with the command provided by the git status comma
 
 Finally, check the changes in GitHub. Make sure that the contents of the `hello.txt` file has been updated.
 
-## GitHub actions and autograding
-
-Once you have pushed your solutions to the remote repository, GitHub will automatically start a GitHub actions workflow, which will check your solutions and provides either a accepted or rejected result. The check usually takes a few minutes and the result will be visible in the "Actions" of your GitHub repository.
-
-![autograde-step-1](https://github.com/user-attachments/assets/f8c10b84-9b84-4d9d-9275-0ef4f38434a0)
-
-![autograde-step-2](https://github.com/user-attachments/assets/1d594537-a45e-4c41-a8c4-65e514439788)
-
-At the bottom of the page you'll see your points. By clicking the "Autograding" heading, you'll get to see more details about the steps performed in grading and their results.
-
-![autograde-step-3](https://github.com/user-attachments/assets/c44c7c42-4a30-40b9-ac52-eb375c4b0a34)
-
-## .github, .gitignore ja .gitattributes
+## .gitignore and .gitattributes
 
 This exercise template includes the assignment and an editable file, as well as "hidden files" that start with a dot. If the files are not visible in the directory structure of your code editor, you may need to change your editor's settings.
 
@@ -145,3 +133,9 @@ In the [`.gitignore` file](./.gitignore) we can define, which files are [left ou
 This exercise is made by Teemu Havulinna and translated to English by Kalle Ilves and it is licensed under a [Creative Commons BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ChatGPT 3.5 language model and GitHub copilot AI assistant has been used to implement the exercise.
+
+## Saving your solution
+
+Make your own copy of this exercise template (fork or copy) and save your solution also in a **private GitHub repository under your own GitHub account**. Do not publish your solution in a public repository.
+
+Submit your solution to the submission system announced by your teacher.
